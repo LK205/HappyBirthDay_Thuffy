@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6efe5" />
+  <title>for-thuffy</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header class="hero" id="top">
+    <div class="hero-inner fade visible">
+      <div class="eyebrow"></div>
+      <h1>Thuffy<br><em>Happy Birthday!</em></h1>
+      <p>Chúc Thuffy sinh nhật vui vẻ! Tuổi mới luôn mạnh khỏe, bình an, gặp nhiều may mắn và đạt được những điều bạn
+        này mong muốn. Xương khớp, cơ thể sẽ không còn đau nhức nữa, mọi điều tốt đẹp sẽ đến với bạn này. Mong tuổi mới
+        sẽ dịu dàng với bạn này hơn, luôn có thật nhiều niềm vui và những ngày tháng hạnh phúc nhé! ❤️</p>
+      <div class="date-line">A few words from my heart & our memories!</div>
+      <button class="primary" onclick="document.querySelector('#beginning').scrollIntoView({behavior:'smooth'})">Open
+        our memories</button>
+      <!-- <div class="scroll-note">SCROLL CHẬM THÔI, MÌNH CÒN NHIỀU KỶ NIỆM</div> -->
+    </div>
+  </header>
+
+  <main>
+    <section id="beginning">
+      <div class="wrap">
+        <div class="section-head fade">
+          <!-- <div class="eyebrow">First page</div> -->
+          <h2>Our Memories</h2>
+          <p>Đôi lời về những kỷ niệm ❤️</p>
+        </div>
+        <div class="intro-card fade">
+          <p>Dear Thuffy,</p>
+          <p>Dưới đây là một vài kỷ niệm đáng nhớ cùng với đôi lời mà tớ muốn gửi đến bạn này. Tớ tạo nên trang web này
+            không chỉ đơn giản là để lưu giữ những bức ảnh hay những khoảnh khắc đã qua, mà còn muốn dành một góc nhỏ để
+            ghi lại câu chuyện của chúng ta, những điều đôi khi không dễ dàng nói thành lời.</p>
+          <p>Chúng ta đã cùng nhau trải qua rất nhiều giai đoạn, từ những ngày tháng học sinh vô tư, những khoảng thời
+            gian yêu xa, cho đến khi mỗi người bắt đầu có những hành trình riêng. Có những khoảnh khắc tưởng chừng rất
+            bình thường ở thời điểm đó, nhưng khi nhìn lại lại trở thành những kỷ niệm vô cùng đáng quý.</p>
+          <p>Tớ muốn nơi này sẽ là một cuốn album nhỏ, nơi lưu giữ những hình ảnh, câu chuyện và cảm xúc mà tớ vẫn luôn
+            trân trọng. Dù thời gian có trôi qua, dù cuộc sống sau này có đưa chúng ta đến những con đường khác nhau, tớ
+            vẫn mong rằng khi nhìn lại, chúng ta có thể mỉm cười vì đã từng có một khoảng thời gian đẹp đẽ như thế.</p>
+          <p class="signature">— From LMK, với tất cả sự trân thành!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="years">
+      <div class="wrap">
+        <div class="section-head fade">
+          <!-- <div class="eyebrow">từng trang, từng năm</div> -->
+          <h2>Những năm tháng của chúng ta</h2>
+          <p>Thay ảnh mẫu bằng ảnh thật của hai người, rồi sửa tiêu đề và kỷ niệm cho đúng với câu chuyện của mình.</p>
+        </div>
+        <div class="timeline">
+          <!-- YEAR 1: Replace the photo placeholder with an image:
+           <img src="images/year-1.jpg" alt="Kỷ niệm năm đầu tiên"> -->
+          <article class="year-row fade">
+            <div class="year-copy">
+              <div class="year">Chương 01 · Năm đầu tiên</div>
+              <h3>Ngày mọi thứ bắt đầu</h3>
+              <p>Có lẽ lúc ấy chúng ta chưa biết hành trình phía trước sẽ dài đến đâu. Chỉ đơn giản là vui vì có một
+                người để kể nghe những chuyện nhỏ nhặt mỗi ngày.</p>
+              <div class="memory">“Kỷ niệm riêng của hai đứa — hãy thay dòng này bằng một câu chỉ hai người hiểu.”</div>
+            </div>
+            <div class="photo-stack">
+              <div class="polaroid">
+                <div class="photo-placeholder">Thêm ảnh đầu tiên<br><small>images/year-1.jpg</small></div><small>một
+                  ngày đáng nhớ</small>
+              </div>
+              <div class="polaroid">
+                <div class="photo-placeholder">Một tấm ảnh khác</div><small>những ngày đầu</small>
+              </div>
+            </div>
+          </article>
+          <article class="year-row fade">
+            <div class="year-copy">
+              <div class="year">Chương 02 · Những ngày xa nhau</div>
+              <h3>Khoảng cách và những cuộc gọi</h3>
+              <p>Không phải lúc nào cũng có thể ở cạnh nhau. Có những khi một cuộc gọi, một tin nhắn hay chỉ một câu hỏi
+                “hôm nay cậu thế nào?” cũng làm ngày dài nhẹ hơn.</p>
+              <div class="memory">“Điều tớ nhớ nhất về khoảng thời gian ấy là…”</div>
+            </div>
+            <div class="photo-stack">
+              <div class="polaroid">
+                <div class="photo-placeholder">Thêm ảnh năm thứ hai<br><small>images/year-2.jpg</small></div><small>qua
+                  màn hình</small>
+              </div>
+              <div class="polaroid">
+                <div class="photo-placeholder">Một kỷ niệm nhỏ</div><small>vẫn nhớ</small>
+              </div>
+            </div>
+          </article>
+          <article class="year-row fade">
+            <div class="year-copy">
+              <div class="year">Chương 03 · Lớn lên cùng nhau</div>
+              <h3>Những điều đã đổi thay</h3>
+              <p>Chúng ta lớn lên, có thêm những trách nhiệm và những điều phải lo nghĩ. Có thể không phải mọi thứ đều
+                hoàn hảo, nhưng từng có lúc chúng ta đã cố gắng rất nhiều để ở lại trong cuộc sống của nhau.</p>
+              <div class="memory">“Cảm ơn cậu vì đã từng cùng tớ đi qua giai đoạn ấy.”</div>
+            </div>
+            <div class="photo-stack">
+              <div class="polaroid">
+                <div class="photo-placeholder">Thêm ảnh năm tiếp theo<br><small>images/year-3.jpg</small></div>
+                <small>một chặng đường</small>
+              </div>
+              <div class="polaroid">
+                <div class="photo-placeholder">Ảnh đáng nhớ</div><small>từng rất vui</small>
+              </div>
+            </div>
+          </article>
+          <article class="year-row fade">
+            <div class="year-copy">
+              <div class="year">Chương 04 · Những năm sau đó</div>
+              <h3>Không phải ngày nào cũng dễ dàng</h3>
+              <p>Đã có những lúc chúng ta hiểu nhau, cũng có lúc chẳng thể hiểu nhau. Tớ không muốn chỉ nhớ những điều
+                đẹp đẽ rồi quên rằng cả hai cũng đã từng mệt mỏi. Tất cả đều là một phần của câu chuyện.</p>
+              <div class="memory">“Có những điều thời gian dạy mình hiểu rõ hơn.”</div>
+            </div>
+            <div class="photo-stack">
+              <div class="polaroid">
+                <div class="photo-placeholder">Thêm ảnh những năm sau<br><small>images/year-4.jpg</small></div><small>đã
+                  đi qua cùng nhau</small>
+              </div>
+              <div class="polaroid">
+                <div class="photo-placeholder">Một khoảnh khắc</div><small>một phần ký ức</small>
+              </div>
+            </div>
+          </article>
+          <article class="year-row fade">
+            <div class="year-copy">
+              <div class="year">Chương 05 · Đến hôm nay</div>
+              <h3>Một câu chuyện vẫn đáng được trân trọng</h3>
+              <p>Bây giờ mọi thứ có thể đã khác. Chúng ta không cần phải ép câu chuyện trở lại như xưa mới có thể biết
+                ơn những gì từng có. Tớ mong cả hai sẽ tìm được con đường khiến mình bình yên.</p>
+              <div class="memory">“Điều đã qua không nhất thiết phải trở lại mới có ý nghĩa.”</div>
+            </div>
+            <div class="photo-stack">
+              <div class="polaroid">
+                <div class="photo-placeholder">Thêm ảnh gần đây<br><small>images/today.jpg</small></div><small>đến hiện
+                  tại</small>
+              </div>
+              <div class="polaroid">
+                <div class="photo-placeholder">Tấm ảnh cuối cùng</div><small>một lời cảm ơn</small>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="upload-tip">Gợi ý: không nhất thiết phải có đủ ảnh cho mọi năm. Chọn những tấm ảnh có ý nghĩa nhất sẽ
+          chân thành hơn một bộ sưu tập quá dài.</p>
+      </div>
+    </section>
+
+    <section class="letter-section" id="letter">
+      <div class="wrap">
+        <div class="letter fade">
+          <div class="letter-content">
+            <div class="eyebrow" style="text-align:center">A few words from my heart ❤️</div>
+            <h2>Điều tớ muốn nói</h2>
+
+            <p>Có lẽ mình đã cùng nhau đi qua rất nhiều chuyện, trải qua không ít giai đoạn khác nhau. Từ những ngày
+              còn là học sinh, những tháng ngày yêu xa, vừa học vừa làm, cho đến lúc bắt đầu đi xin việc và có chuyến du
+              lịch đầu tiên cùng nhau.</p>
+
+            <p>Nhìn lại, bạn này là người đã đồng hành cùng tớ trên một chặng đường rất dài, cũng là người chứng kiến tớ
+              từng bước trưởng thành. Tớ thật sự rất trân trọng điều đó!</p>
+
+            <p>Dù phần lớn thời gian chúng ta phải yêu xa, nhưng mình vẫn có rất nhiều kỷ niệm đẹp. Tất cả những khoảnh
+              khắc ấy đều là một phần thanh xuân mà tớ sẽ luôn nhớ và trân trọng.</p>
+
+            <p>Có một điều mà đến tận bây giờ tớ mới thực sự hiểu. Trước đây, vì tớ với bạn này sống trong hai môi
+              trường quá khác nhau nên tớ chưa thể cảm nhận hết những khó khăn mà bạn này đã trải qua. Tớ chỉ nghe bạn
+              này kể, nhưng chưa bao giờ thực sự hình dung được những điều ấy khó khăn đến mức nào.</p>
+
+            <p>Cho đến khi tớ sang Đài Loan, tự mình trải nghiệm cuộc sống vừa học vừa làm, tớ mới hiểu được cảm giác
+              mệt mỏi, thiếu thời gian và đôi khi chỉ cần một người để tâm sự, chia sẻ những chuyện thường ngày cũng khó
+              khăn đến thế nào.</p>
+
+            <p>Càng hiểu, tớ càng thương bạn này nhiều hơn. Có những lúc nghĩ lại, tớ thấy xót bạn này vì trước đây khi
+              còn ở
+              bên nhau, tớ chưa từng muốn bạn này phải vất vả hay làm những việc như vậy. Tớ cũng muốn gửi lời xin lỗi
+              vì những lần đã hời hợt trong cách nói chuyện, vì những điều tớ chưa đủ tinh tế để nhận ra, và cả những
+              lúc chưa thực sự thấu hiểu cảm xúc của bạn này.</p>
+
+            <p>Có lẽ có những điều phải tự mình trải qua thì mới có thể thực sự hiểu được.</p>
+
+            <p>Dù sau này sẽ như thế nào, có còn xuất hiện trong cuộc sống của nhau hay không, tớ vẫn mong mọi
+              điều tốt đẹp nhất sẽ đến với bạn này. Mong bạn này luôn mạnh khỏe, bình an, được yêu thương và có thể sống
+              một cuộc đời mà bạn này mong muốn.</p>
+
+            <p>Cảm ơn bạn này vì đã từng đồng hành cùng tớ, vì những kỷ niệm đẹp và vì đã trở thành một phần rất đáng
+              nhớ trong hành trình trưởng thành của tớ.</p>
+
+            <p><strong>Tớ thật sự rất trân trọng bạn này và những tháng ngày chúng ta đã từng có. ❤️</strong></p>
+
+            <p class="sign">Chúc mọi điều tốt đẹp nhất sẽ đến với bạn này,<br>— LMK</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="birthday">
+      <div class="wrap birthday fade">
+        <div class="cake" aria-hidden="true">
+          <div class="flame"></div>
+          <div class="candle"></div>
+          <div class="cake-top"></div>
+          <div class="cake-body"></div>
+        </div>
+        <div class="eyebrow">trang cuối · nhưng không phải lời kết của cuộc đời</div>
+        <h2>Chúc mừng sinh nhật, cậu nhé. ♡</h2>
+        <p>Mong tuổi mới sẽ mang đến cho cậu thật nhiều niềm vui, sức khỏe, những người tử tế và những điều khiến cậu
+          thấy cuộc sống này thật đáng yêu.</p>
+        <p>Cảm ơn cậu vì đã từng là một phần rất đặc biệt trong hành trình của tớ.</p>
+        <p class="closing-line">Mong cậu hạnh phúc — theo cách mà cậu mong muốn.</p>
+        <button class="quiet" onclick="window.scrollTo({top:0,behavior:'smooth'})">Đọc lại từ đầu ↑</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Được làm bằng sự trân trọng, dành cho một câu chuyện đã từng rất đẹp.
+    <br><a class="back-top" href="#top">Quay về trang đầu</a>
+  </footer>
+  <script>
+    // Gentle reveal as each section enters the viewport.
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.fade:not(.visible)').forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>
